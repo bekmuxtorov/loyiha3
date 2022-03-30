@@ -12,7 +12,7 @@ header{
     
 }
 .active{
-    color: #333C83 !important
+    color: chartreuse !important
 }
 header a{
     color: black !important;
@@ -24,6 +24,13 @@ header a{
     transition:all 0.4s
 }
 header a:hover{
-    color: #333C83 !important;
+    color: chartreuse !important;
     transform: scale(1.1);
+}
+/* main section */
+.main-section{
+    padding-top:100px ;
+}
+.main-word{
+    color: chartreuse;
 }
