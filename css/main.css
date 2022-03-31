@@ -1,27 +1,6 @@
 *{
     font-family: sans-serif;
 }
-
-
-
-
-
-.nav-link{
-    color: black !important;
-    font-weight: 600;
-    text-transform:uppercase;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.4px;
-    transition:all 0.4s
-}
-.nav-link:hover{
-    color: chartreuse !important;
-    transform: scale(1.1);
-}
-.active{
-    color: chartreuse !important
-}
 /* main section */
 .main-section{
     padding-top:6.25rem ;

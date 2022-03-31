@@ -1,4 +1,5 @@
 header{
+    opacity: 9;
     background-color: #fff;
     padding: 0.7rem;
     box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
@@ -44,7 +45,12 @@ header{
 }
 .footer .social-media i{
     padding: 0 0.625rem;
-    font-size: 2.5rem;
+    color: rgb(110, 172, 48);
+    font-size: 2rem;
+    transition: all 0.5s;
+}
+.footer .social-media i:hover{
+    color: #fff;
 }
 .footer p{
     color: #fff;
