@@ -2,19 +2,11 @@
     font-family: sans-serif;
 }
 
-header{
-    background-color: #fff;
-    padding: 10px;
-    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    
-}
-.active{
-    color: chartreuse !important
-}
-header a{
+
+
+
+
+.nav-link{
     color: black !important;
     font-weight: 600;
     text-transform:uppercase;
@@ -23,14 +15,18 @@ header a{
     letter-spacing: 0.4px;
     transition:all 0.4s
 }
-header a:hover{
+.nav-link:hover{
     color: chartreuse !important;
     transform: scale(1.1);
 }
+.active{
+    color: chartreuse !important
+}
 /* main section */
 .main-section{
-    padding-top:100px ;
+    padding-top:6.25rem ;
 }
 .main-word{
     color: chartreuse;
 }
+/* footer qism */

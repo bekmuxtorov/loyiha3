@@ -1,0 +1,54 @@
+header{
+    background-color: #fff;
+    padding: 0.7rem;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+.sub-title{
+    font-family: sans-serif;
+    font-size:1.3rem;
+    font-weight: 700;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+.nav-link{
+    color: black !important;
+    font-weight: 600;
+    text-transform:uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    transition:all 0.4s
+}
+.nav-link:hover{
+    color: chartreuse !important;
+    transform: scale(1.1);
+}
+.active{
+    color: chartreuse !important
+}
+.footer{
+    background-color: black;
+    padding: 4rem;
+    text-align:center;
+}
+.footer .nav-link{
+    color: #fff !important
+}
+.footer .social-media{
+    padding:0.625rem;
+}
+.footer .social-media i{
+    padding: 0 0.625rem;
+    font-size: 2.5rem;
+}
+.footer p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-top:2rem;
+}
