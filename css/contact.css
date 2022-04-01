@@ -4,11 +4,13 @@
 }
 textarea{
     width: 100%;
-    height: 10rem;
-    padding: 5px 10px;
-    border: 1px solid #f0e9ff;
+    height: 11rem;
+    padding: 10px 10px;
+    border: 1px solid grey;
     background:transparent;
     font-size: 0.9rem;
+    margin-top: 20px !important;
+    border-radius:4px;
 }
 .forms{
     display: flex;
@@ -21,14 +23,32 @@ textarea{
 }
 .forms-item input{
     width: 100%;
-    padding: 5px 10px;
-    border: 1px solid #f0e9ff;
+    padding: 10px 10px;
+    border: 1px solid grey;
     background:transparent;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    border-radius:4px;
 }
 textarea:focus, input:focus{
     outline: none;
+    border-color: chartreuse;
 }
 .forms-item3{
     width: 100%;
+}
+.button{
+    margin-top: 2rem;
+    padding: 5px 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border:1px solid #ccc;
+    border-radius:4px;
+    background-color: chartreuse;
+    color: #fff;
+    transition: all 0.5s;
+}
+.button:hover{
+    background-color:  rgb(16, 251, 4);
+    transform: scale(1.1);
+    color: black;
 }
