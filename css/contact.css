@@ -9,7 +9,7 @@ textarea{
     border: 1px solid grey;
     background:transparent;
     font-size: 0.9rem;
-    margin-top: 20px !important;
+    margin-top: 2rem !important;
     border-radius:4px;
 }
 .forms{
@@ -46,6 +46,7 @@ textarea:focus, input:focus{
     background-color: chartreuse;
     color: #fff;
     transition: all 0.5s;
+    margin-bottom: 5rem;
 }
 .button:hover{
     background-color:  rgb(16, 251, 4);
