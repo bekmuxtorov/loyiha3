@@ -20,7 +20,7 @@ header{
     top: -2px;
 }
 .sub-title{
-    font-family: sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size:1.3rem;
     font-weight: 700;
     text-transform:uppercase;

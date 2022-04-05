@@ -1,10 +1,7 @@
-html{
-    font-family: 'Roboto',sans-serif;
-}
 @font-face {
     font-family: 'Roboto';
-    src: url('././fonts/Roboto-Black.woff2') format('woff2'),
-        url('./fonts/Roboto-Black.woff') format('woff');
+    src: url('./fonts/fonts/Roboto-Black.woff2') format('woff2'),
+        url('./fonts/fonts/Roboto-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -109,59 +106,3 @@ html{
     font-display: swap;
 }
 
-
-.contact{
-    padding-top: 9rem;
-    padding-bottom: 2rem;
-}
-textarea{
-    width: 100%;
-    height: 11rem;
-    padding: 10px 10px;
-    border: 1px solid grey;
-    background:transparent;
-    font-size: 0.9rem;
-    margin-top: 2rem !important;
-    border-radius:4px;
-}
-.forms{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 18px;
-    margin-bottom: 18px;
-}
-.forms-item{
-    width: 49%;
-}
-.forms-item input{
-    width: 100%;
-    padding: 10px 10px;
-    border: 1px solid grey;
-    background:transparent;
-    font-size: 1rem;
-    border-radius:4px;
-}
-textarea:focus, input:focus{
-    outline: none;
-    border-color: chartreuse;
-}
-.forms-item3{
-    width: 100%;
-}
-.button{
-    margin-top: 2rem;
-    padding: 5px 30px;
-    font-weight: 500;
-    font-size: 1.2rem;
-    border:1px solid #ccc;
-    border-radius:4px;
-    background-color: chartreuse;
-    color: #fff;
-    transition: all 0.5s;
-    margin-bottom: 5rem;
-}
-.button:hover{
-    background-color:  rgb(16, 251, 4);
-    transform: scale(1.1);
-    color: black;
-}
