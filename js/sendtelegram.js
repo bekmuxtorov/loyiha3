@@ -5,9 +5,10 @@ var chat_id = 1603330179; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni I
 var u_name, email, message;
 var ready = function() { 
     u_name = document.getElementById("name").value;
+    shortText = document.getElementById("short_text").value;
     email = document.getElementById("email").value;
     message = document.getElementById("message").value;
-    message = "Ismi: " + u_name + "\nEmail: " + email + "\nIzoh: " + message;
+    message = "Ismi: " + u_name + "\nEmail: " + email + "\nQisqacha xat: " + shortText +  "\nXabar: " + message;
 };
 var sendtelegram = function() {
     ready();
