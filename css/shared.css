@@ -88,12 +88,34 @@ header .logo a{
     flex-direction: column;
     justify-content: center;
 }
+.footer .nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.footer .nav-link{
-    color: #fff !important;
+.footer .nav-items li{
+    margin: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    transition:all 0.5s;
+    
+}
+.footer .nav-items li:hover a{
+    color: chartreuse;
+    
+}
+.footer .nav-items li:hover{
+    transform: scale(1.1);
+}
+.footer .nav-items li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 .footer .social-media{
-    padding:0.625rem;
+    padding:0.625rem;   
 }
 .footer .social-media i{
     padding: 0 0.625rem;

@@ -3,9 +3,32 @@
 }
 /* main section */
 .main-section{
-    padding-top:6.25rem ;
+    padding-top:8.25rem ;
+    padding-bottom:8.25rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .main-word{
     color: chartreuse;
+    max-height:40px ;
 }
-/* footer qism */
+.main-section p{
+    margin-top: 80px;
+    font-size: 0.9rem;
+    font-weight:400;
+    color: #797979;
+    line-height: 27px;
+    letter-spacing: 1px;
+    width: 80%;
+
+}
+.main-img{
+    transition: all 0.5s;
+}
+
+.main-img:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
