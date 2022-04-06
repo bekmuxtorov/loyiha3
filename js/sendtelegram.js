@@ -1,13 +1,13 @@
 //bot token
-var telegram_bot_id = "5286641890:AAHnyuP4YtPJ1j1R4n_nkIdOKrJlXksEUM8"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
+var telegram_bot_id = "5278330498:AAE43NrKG8yEyybosaiD6Y1C69RnqYpRAe4"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
 //chat id
-var chat_id = 1603330179; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
+var chat_id =60313453; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
 var u_name, email, message;
-var ready = function() { 
+var ready = function() {
     u_name = document.getElementById("name").value;
     email = document.getElementById("email").value;
     message = document.getElementById("message").value;
-    message = "Ismi: " + u_name + "\nEmail: " + email +  "\nXabar: " + message;
+    message = "Ismi: " + u_name + "\nEmail: " + email + "\nIzoh: " + message;
 };
 var sendtelegram = function() {
     ready();
