@@ -15,7 +15,12 @@ header .logo{
     display: inline-block;
     font-size: 20px;
     padding-top: 2px;
-    font-weight: 600;
+    font-weight: 700;
+
+}
+header .logo a{
+    text-decoration: none;
+    color: black;
 }
 .checkbtn{
     float:right;
@@ -117,7 +122,12 @@ header .logo{
         text-align: center;
         transition: all 0.7s;
         z-index: 8;
-        color: azure
+        
+        padding-top: 30px !important;
+        font-size: 1.4rem !important;
+    }
+    .nav a{
+        color: azure !important;
     }
 
     #check:checked ~ ul{
