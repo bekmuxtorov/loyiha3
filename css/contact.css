@@ -16,6 +16,9 @@ textarea{
     margin-top: 2rem !important;
     border-radius:4px;
 }
+form{
+    text-align: center;
+}
 .forms{
     display: flex;
     justify-content: space-between;
@@ -51,6 +54,8 @@ textarea:focus, input:focus{
     color: #fff;
     transition: all 0.5s;
     margin-bottom: 5rem;
+    width: 50%;
+    text-align: center;
 }
 .button:hover{
     background-color:  rgb(16, 251, 4);
