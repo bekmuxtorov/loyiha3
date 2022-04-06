@@ -1,5 +1,5 @@
 //bot token
-var telegram_bot_id = "5151521204:AAGKfwCd-MZ9J74xShC4yvxreyreTmmmSjU"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
+var telegram_bot_id = "5286641890:AAHnyuP4YtPJ1j1R4n_nkIdOKrJlXksEUM8"; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
 //chat id
 var chat_id = 1603330179; // 1111'ni o'rniga habar borishi kerak bo'lgan joyni ID'sini yozing (Batafsil videoda)
 var u_name, email, message, shortText ;
