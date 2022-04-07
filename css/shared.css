@@ -17,6 +17,9 @@
     transform: scale(1.1);
     color: black;
 }
+.description{
+    padding-top: 100px;
+}
 header{
     z-index: 9;
     background-color: #fff;
@@ -73,7 +76,7 @@ header .logo a{
     filter: blur(4px);
     border-radius: 4px;
     position: relative;
-    top: -2px;
+    top: -9px;
 }
 .sub-title{
     font-family:'Roboto', sans-serif;
