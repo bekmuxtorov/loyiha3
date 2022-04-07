@@ -43,23 +43,5 @@ textarea:focus, input:focus{
 .forms-item3{
     width: 100%;
 }
-.button{
-    margin-top: 2rem;
-    padding: 5px 30px;
-    font-weight: 500;
-    font-size: 1.2rem;
-    border:1px solid #ccc;
-    border-radius:4px;
-    background-color: chartreuse;
-    color: #fff;
-    transition: all 0.5s;
-    margin-bottom: 5rem;
-    width: 50%;
-    text-align: center;
-}
-.button:hover{
-    background-color:  rgb(16, 251, 4);
-    transform: scale(1.1);
-    color: black;
-}
+
 

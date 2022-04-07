@@ -1,0 +1,39 @@
+.description{
+    padding-top: 100px;
+}
+.card-items{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
+.card-item{
+    width: 35%;
+    margin:20px 60px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.card-item:hover{
+    transform: scale(1.05);
+    background-color: aliceblue;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.175)!important;
+}
+.card-item img{
+    width: 100px;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.card-item p{
+    font-size: 1rem;
+    line-height: 1.4;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+}
+.card-item button{
+    padding:5px;
+    margin-bottom: 15px;
+}
