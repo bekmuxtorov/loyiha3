@@ -11,7 +11,7 @@
 
 .card-item{
     width: 35%;
-    margin:20px 60px;
+    margin:1.25rem 3.75rem;
     text-align: center;
     transition: all 0.5s;
 }
@@ -33,5 +33,5 @@
 }
 .card-item button{
     padding:5px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }

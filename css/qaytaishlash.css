@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     /* margin-top: 20px; */
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 .card-item{
     display: flex;
     flex-direction: row;
     transition:all 0.5s;
-    margin-top: 20px;
+    margin-top:1.25rem;
 }
 .card-item:hover{
     transform:scale(1.05);
@@ -18,10 +18,13 @@
     width: 100%;
 }
 .card-item img{
-    width: 700px;
+    width: 43.75rem;
     border-radius: 4px;
 }
 
 .blur-qayta{
     width: 100%;
+}
+.color-red{
+    color: red !important;
 }

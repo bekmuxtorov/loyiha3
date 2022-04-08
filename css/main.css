@@ -12,14 +12,14 @@
 }
 .main-word{
     color: chartreuse;
-    max-height:40px ;
+    max-height:2.5rem;
 }
 .main-section p{
-    margin-top: 80px;
+    margin-top: 5rem;
     font-size: 0.9rem;
     font-weight:400;
     color: #797979;
-    line-height: 27px;
+    line-height: 1.69rem;
     letter-spacing: 1px;
     width: 80%;
 

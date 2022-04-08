@@ -12,7 +12,7 @@ textarea{
     padding: 10px 10px;
     border: 1px solid grey;
     background:transparent;
-    font-size: 0.9rem;
+    font-size: 1rem !important;
     margin-top: 2rem !important;
     border-radius:4px;
 }
@@ -33,7 +33,7 @@ form{
     padding: 10px 10px;
     border: 1px solid grey;
     background:transparent;
-    font-size: 1rem;
+    font-size: 1rem !important;
     border-radius:4px;
 }
 textarea:focus, input:focus{

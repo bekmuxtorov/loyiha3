@@ -78,12 +78,13 @@ header .logo a{
 
 .nav ul li{
     display: inline-block;
-    margin: 30px 10px;
-    padding: 0 20px;
+    margin: 1.875rem 0.625rem;
+    padding: 0 1.25rem;
 }
 .blur-line {
     display: inline-block;
     margin-left: 0.375rem;
+    margin-right: 0.375rem;
     width: 6rem;
     height: 0.3rem;
     background-color: chartreuse;
@@ -91,6 +92,9 @@ header .logo a{
     border-radius: 4px;
     position: relative;
     top: -9px;
+}
+.color-red{
+    color:red !important;
 }
 .sub-title{
     font-family:'Roboto', sans-serif;
