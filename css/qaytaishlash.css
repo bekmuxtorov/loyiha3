@@ -21,19 +21,7 @@
     width: 700px;
     border-radius: 4px;
 }
-.card-description{
-    padding-left: 50px;
 
-}
-.card-description h1{
-    font-size: 1.7rem;
-    line-height: 1.5rem;
-}
-.card-description p{
-    font-size: 1rem ;
-    padding-top:20px;
-    letter-spacing: 0.5px;
-}
 .blur-qayta{
     width: 100%;
 }

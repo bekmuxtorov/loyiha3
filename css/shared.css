@@ -20,6 +20,20 @@
 .description{
     padding-top: 100px;
 }
+.sup-title{
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+}
+.card-description{
+    padding-left: 50px;
+
+}
+
+.card-description p{
+    font-size: 1rem ;
+    padding-top:20px;
+    letter-spacing: 0.5px;
+}
 header{
     z-index: 9;
     background-color: #fff;
