@@ -32,3 +32,32 @@
     cursor:pointer;
     transform: scale(1.05);
 }
+
+/* responsive elementlar */
+@media only screen and (max-width:992px){
+    .main-section{
+        flex-direction:column;
+        justify-content: center; 
+    }
+    .main-section div{
+        padding-top: 10px;
+    }
+    .main-description{
+        text-align: center;
+        width: 90%;
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-description p{
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        padding-bottom: 30px;
+
+    }
+
+}
