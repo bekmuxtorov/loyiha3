@@ -8,10 +8,13 @@
     padding-bottom: 2rem;
 
 }
+.card-description{
+    padding-left:-50px !important;
+}
 
 .card-item{
     width: 35%;
-    margin:1.25rem 3.75rem;
+    margin:2.25rem 3.75rem;
     text-align: center;
     transition: all 0.5s;
 }

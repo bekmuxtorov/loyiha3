@@ -32,7 +32,10 @@
     cursor:pointer;
     transform: scale(1.05);
 }
-
+.index-line{
+    width: 80% !important;
+    margin-left: -1px !important;
+}
 /* responsive elementlar */
 @media only screen and (max-width:992px){
     .main-section{

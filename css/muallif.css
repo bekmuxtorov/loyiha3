@@ -1,12 +1,14 @@
 .author{
     display: flex;
     flex-direction:row;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 5rem !important;
     transition:all 0.7s
 }
 .author:hover{
-    transform: scale(1.05);
-    box-shadow: 0 1rem 2rem rgba(128, 255, 0, 0.649)!important;
+    transform: scale(1.007);
+    box-shadow: 0px 0px 10px 5px #01ff19 !important;
     border-color: chartreuse;
 }
 .contact{
@@ -17,4 +19,5 @@
 }
 .author-img img{
     border-radius:4px;
+    width:100%;
 }
