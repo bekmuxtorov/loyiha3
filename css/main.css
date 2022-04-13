@@ -26,6 +26,11 @@
 }
 .main-img{
     transition: all 0.5s;
+    width: 103vw;
+}
+.main-img img{
+    padding-top: 30px;
+    width:50vw
 }
 
 .main-img:hover{
