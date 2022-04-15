@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem !important;
-    transition:all 0.7s
+    transition:all 0.7s;
+    padding: 5px;
 }
 .author:hover{
     transform: scale(1.007);
@@ -21,3 +22,27 @@
     border-radius:4px;
     width:100%;
 }
+
+/* responsive */
+@media only screen and (max-width: 992px){
+    .author{
+        flex-direction: column;
+    }
+    .author-description{
+        padding-top: 1rem;
+        width: 90%;
+    }
+    .author-img{
+        text-align: center;
+    }
+    .author-img img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .author-description{
+        padding-top: 1rem;
+        width:100%;
+    }
+}
+

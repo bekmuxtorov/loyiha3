@@ -24,14 +24,13 @@
     font-size: 1.7rem;
     line-height: 1.5rem;
 }
-.card-description{
-    padding-left: 50px;
-
-}
+/* .card-description{
+    padding-left: 2.125rem;
+} */
 
 .card-description p{
     font-size: 1rem ;
-    padding-top:20px;
+    padding-top:1.25rem;
     letter-spacing: 0.5px;
 }
 header{
@@ -200,5 +199,40 @@ header .logo a{
 
     #check:checked ~ ul{
         left: 0;
+    }
+    .footer nav{
+        display: none;
+    }
+    .sub-title{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .sub-title{
+        font-size: 1.5rem;
+    }  
+     
+}
+
+@media only screen and (max-width: 465px){
+    .button{
+        margin-top: 0.7rem;
+    }
+    .sub-title{
+        font-size: 1.3rem;
+    }
+    .blur-line{
+        top: -4px;
+    }
+    .card-item p{
+        letter-spacing: 0.7px;
+    }
+    .footer p{
+        font-size: 0.9rem;
+        line-height: 1.3;
+        font-weight: 500;
+    }
+    .card-description {
+        padding-left: 1rem;
     }
 }
