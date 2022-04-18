@@ -16,10 +16,10 @@
     width: 35%;
     margin:2.25rem 3.75rem;
     text-align: center;
-    transition: all 0.5s;
+    transition: all 0.5s !important;
 }
 .card-item:hover{
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
     background-color: aliceblue;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.175)!important;
 }
