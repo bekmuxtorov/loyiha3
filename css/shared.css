@@ -3,8 +3,8 @@
     padding: 5px 30px;
     font-weight: 500;
     font-size: 1.2rem;
-    border:1px solid #ccc;
-    border-radius:4px;
+    border:3px solid #ccc;
+    border-radius:6px;
     background-color: chartreuse;
     color: #fff;
     transition: all 0.5s;
@@ -12,7 +12,10 @@
     width: 50%;
     text-align: center;
 }
-.button:hover{
+a{
+    text-decoration: none;
+}
+.card-item:hover a{
     background-color:  rgb(16, 251, 4);
     transform: scale(1.1);
     color: black;
@@ -24,9 +27,6 @@
     font-size: 1.7rem;
     line-height: 1.5rem;
 }
-/* .card-description{
-    padding-left: 2.125rem;
-} */
 
 .card-description p{
     font-size: 1rem ;

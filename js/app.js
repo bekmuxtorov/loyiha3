@@ -8,3 +8,10 @@ var typed = new Typed('.animation', {
 
 function addedColor(){
 }
+
+$(document).ready(function(){
+    $('btnDowload').click(function(e){
+        e.preventDefault();
+        window.location.href = "simple.docx";
+    })
+})
